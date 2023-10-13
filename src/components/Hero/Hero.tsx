@@ -9,11 +9,11 @@ const Hero: FC = () => {
          <div className={styles.hero__container}>
             <div className={styles.hero__images}>
                <a className={styles.hero__logo} href="#">
-                  <img src="./src/components/Hero/assets/images/hero-logo.png" alt="Аллоды" />
+                  <img src="./assets/images/hero-logo.png" alt="Аллоды" />
                </a>
                <img
                   className={styles.hero__image}
-                  src="./src/components/Hero/assets/images/hero-boxes.png"
+                  src="./assets/images/hero-boxes.png"
                   alt="Коллекционное издание"
                />
             </div>
