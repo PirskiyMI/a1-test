@@ -1,0 +1,31 @@
+.row {
+   height: 74px;
+   &:first-child {
+      border-radius: 1px;
+   }
+   &__item {
+      border-top: var(--table-border);
+      border-bottom: var(--table-border);
+      &:nth-child(3),
+      &:nth-child(4) {
+         text-align: center;
+      }
+      &:nth-child(3) {
+         padding-right: 20px;
+      }
+      &:first-child {
+         width: 85px;
+         padding: 4px 0 3px 5px;
+         border-left: var(--table-border);
+      }
+      &:last-child {
+         padding: 1px 13px 0 0;
+         border-right: var(--table-border);
+      }
+   }
+   &__wrapper {
+      padding-left: 3px;
+      width: 162px;
+      line-height: 1.2;
+   }
+}

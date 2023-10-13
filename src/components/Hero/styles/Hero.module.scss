@@ -1,0 +1,42 @@
+.hero {
+   position: relative;
+   overflow: hidden;
+   height: 892px;
+   text-align: center;
+   color: var(--text-color);
+   background: url('./../assets/images/hero-section-bg.jpg') no-repeat center / cover;
+   &__container {
+      position: relative;
+      padding: 0 0 47px 0;
+      z-index: 2;
+   }
+   &__images {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   &__logo {
+      margin-top: -15px;
+      img {
+         width: 376px;
+         height: 348px;
+      }
+   }
+   &__image {
+      width: 766px;
+      height: 525px;
+      margin-top: -99px;
+      transform: translateX(-26px);
+   }
+   &__title {
+      margin-top: -18px;
+      font-family: var(--secondary-font);
+      font-size: var(--main-title-font-size);
+      font-weight: var(--font-weight-bold);
+      text-transform: uppercase;
+   }
+   &__text {
+      margin-top: 24px;
+      font-size: var(--label-font-size);
+   }
+}

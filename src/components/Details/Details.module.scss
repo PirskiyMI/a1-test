@@ -1,0 +1,43 @@
+.details {
+   position: relative;
+   overflow: hidden;
+   height: 1029px;
+   background: url('./assets/images/details-section-bg.jpg') no-repeat 50% / cover;
+   &__container {
+      position: relative;
+      display: flex;
+      z-index: 10;
+   }
+   &__info {
+      margin-top: 30px;
+      flex: 0 0 632px;
+      transform: translateX(-120px);
+   }
+   &__image {
+      flex: 0 0 680px;
+      transform: translate(25px, -18px);
+   }
+   &__title {
+      color: var(--title-color);
+      font-family: var(--secondary-font);
+      font-size: var(--secondary-title-font-size);
+      font-weight: var(--font-weight-bold);
+      text-transform: uppercase;
+   }
+   &__order {
+      padding-left: 3px;
+      margin-top: 19px;
+      display: flex;
+      align-items: flex-end;
+   }
+   &__payment {
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+      transform: translate(-139px, -57px);
+   }
+   &__price {
+      font-size: var(--price-font-size);
+      color: var(--text-color);
+   }
+}

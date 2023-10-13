@@ -1,0 +1,22 @@
+.table {
+   margin-top: 45px;
+   width: 100%;
+   border-spacing: 0 1px;
+   &__cell {
+      width: 140px;
+      &:nth-child(2) {
+         width: 151px;
+         padding: 0 11px 0 0;
+      }
+   }
+   &__label {
+      margin-bottom: 8px;
+      padding: 4px 0 5px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      font-size: var(--table-label-font-size);
+      color: var(--table-label-color);
+      border: var(--table-border);
+   }
+}
