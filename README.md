@@ -10,4 +10,4 @@
    <li>React</li>
 </ul>
 
-[GitHub pages](./)
+[GitHub pages](https://pirskiymi.github.io/a1-test/)
