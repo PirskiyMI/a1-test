@@ -1,5 +1,8 @@
-import { FC } from 'react';
 import styles from './styles/HeroDecor.module.scss';
+import { FC } from 'react';
+
+import playerMaleImage from './assets/images/player-male.png';
+import playerFemaleImage from './assets/images/player-female.png';
 
 const HeroDecor: FC = () => {
    return (
@@ -11,15 +14,15 @@ const HeroDecor: FC = () => {
          <div className={`${styles.decor__player} ${styles.decor__player_female}`}>
             <img
                className={styles.decor__image}
-               src="./src/components/Hero/assets/images/player-female.png"
-               alt="Изображение игрока"
+               src={playerFemaleImage}
+               alt="Изображение игрока-женщины"
             />
          </div>
          <div className={`${styles.decor__player} ${styles.decor__player_male}`}>
             <img
                className={styles.decor__image}
-               src="./src/components/Hero/assets/images/player-male.png"
-               alt="Изображение игрока"
+               src={playerMaleImage}
+               alt="Изображение игрока-мужчины"
             />
          </div>
       </div>
